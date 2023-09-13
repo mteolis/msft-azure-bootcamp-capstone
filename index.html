@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Discover Your Emoji</h1>
+        <form id="emojiForm">
+            <div class="question">
+                <p>Question 1: What's your favorite color?</p>
+                <label>
+                    <input type="radio" name="question1" value="blue"> Blue
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="red"> Red
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="green"> Green
+                </label>
+            </div>
+            <div class="question">
+                <p>Question 2: What's your favorite animal?</p>
+                <label>
+                    <input type="radio" name="question2" value="dog"> Dog
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="cat"> Cat
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="rabbit"> Rabbit
+                </label>
+            </div>
+            <div class="question">
+                <p>Question 3: What's your mood today?</p>
+                <label>
+                    <input type="radio" name="question3" value="happy"> Happy
+                </label>
+                <label>
+                    <input type="radio" name="question3" value="sad"> Sad
+                </label>
+                <label>
+                    <input type="radio" name="question3" value="excited"> Excited
+                </label>
+            </div>
+            <button type="submit">Find My Emoji</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
